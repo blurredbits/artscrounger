@@ -13,7 +13,7 @@ class API::V1::MissionsController < ApplicationController
 
   def create
     @mission = Mission.new(mission_params)
-    save_or_render_error(@mission)
+    save_or_render_error(@mission.targets)
   end
 
   def update
