@@ -28,6 +28,6 @@ class API::V1::MissionsController < ApplicationController
   end
 
   def mission_params
-    params.require(:mission).permit(:name, :art_pieces_id, :user_id)
+    params.require(:mission).permit(:name, :art_pieces_id, :users_id)
   end
 end
