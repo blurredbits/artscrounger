@@ -8,12 +8,12 @@ class API::V1::MissionsController < ApplicationController
   end
 
   def show
-    render json: @mission
+    render @mission
   end
 
   def create
     @mission = Mission.new(mission_params)
-    save_or_render_error(@mission.targets)
+    save_or_render_error(@mission)
   end
 
   def update
