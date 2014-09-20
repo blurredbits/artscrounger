@@ -1,4 +1,4 @@
-class API::V1::MissionController < ApplicationController
+class API::V1::MissionsController < ApplicationController
 
   before_filter :get_mission, except: [:create, :index]
 

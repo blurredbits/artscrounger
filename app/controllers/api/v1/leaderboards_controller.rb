@@ -1,4 +1,4 @@
-class API::V1::LeaderboardController < ApplicationController
+class API::V1::LeaderboardsController < ApplicationController
 
   def index
     @leaderboards = Leaderboard.all?

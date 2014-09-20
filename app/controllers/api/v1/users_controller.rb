@@ -1,4 +1,4 @@
-class API::V1::UserController < ApplicationController
+class API::V1::UsersController < ApplicationController
 
   before_filter :get_user, except: [:create, :index]
   
