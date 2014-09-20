@@ -1,0 +1,18 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+
+development:
+  <<: *default
+  database: artscrounger_development
+
+test:
+  <<: *default
+  database: artscrounger_test
+
+production:
+  <<: *default
+  database: artscrounger_production
+  username: artscrounger
+  password: <%= ENV['ARTSCROUNGER_DATABASE_PASSWORD'] %>
