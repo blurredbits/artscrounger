@@ -1,0 +1,157 @@
+body
+{
+	background-color: #ADC7E2;
+	color: #7B3A12;
+}
+
+a, a:visited, a:hover, a:active
+{
+	color: #7B3A12;
+}
+
+p, ul
+{
+	color: #000000;
+}
+
+li
+{
+	list-style-type: none;
+	padding: 10px 0;
+}
+
+li p
+{
+	margin-bottom: 0;
+}
+
+.btn
+{
+	margin-bottom: 20px;
+}
+
+.btn-primary
+{
+	background-color: #5178A4;
+	border-color: #6590BD;
+	color: #EFEEF8;
+}
+
+.light
+{
+	background: #606E7C;
+	background: -moz-radial-gradient(center 45deg, circle cover, #606E7C, #444E59);
+	background: -webkit-radial-gradient(center 45deg, circle cover, #606E7C, #444E59);
+	background: -o-radial-gradient(center 45deg, circle cover, #606E7C, #444E59);
+	background: -ms-radial-gradient(center 45deg, circle cover, #606E7C, #444E59);
+	background: radial-gradient(center 45deg, circle cover, #606E7C, #444E59);
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-radius: 100px;
+	box-shadow: 0 0 5px #777777;
+	float: left;
+	height: 20px;
+	margin-right: 5px;
+	position: relative;
+	vertical-align: top;
+	width: 20px;
+}
+
+.light.on
+{
+	background: #D1E5B2;
+	background: -moz-radial-gradient(center 45deg, circle cover, #D1E5B2, #21FF00);
+	background: -webkit-radial-gradient(center 45deg, circle cover, #D1E5B2, #21FF00);
+	background: -o-radial-gradient(center 45deg, circle cover, #606E7C, #444E59);
+	background: -ms-radial-gradient(center 45deg, circle cover, #606E7C, #444E59);
+	background: radial-gradient(center 45deg, circle cover, #606E7C, #444E59);
+}
+
+.thumbnail
+{
+	margin-bottom: 2px;
+	vertical-align: top;
+	max-width: 100%;
+}
+
+.photo-list
+{
+	padding-left: 0;
+}
+
+.photo-list li
+{
+	position: relative;
+}
+
+.title
+{
+	font-size: 130%;
+}
+
+.actions
+{
+	margin-bottom: 15px;
+}
+
+.actions a
+{
+	border-left: solid 1px #000000;
+	padding: 0 10px;
+}
+
+.actions a:first-child
+{
+	border-left-style: none;
+	padding-left: 0;
+}
+
+.fa-check
+{
+	color: #15C132;
+	left: 3px;
+	position: absolute;
+	text-shadow: 1px 2px 0px #12AA2C;
+	top: 6px;
+}
+
+.container
+{
+	margin-bottom: -50px;
+}
+
+.footer-spacer
+{
+	height: 50px;
+}
+
+.footer
+{
+	background-color: #B98D46;
+	border-top: solid 2px #9B763B;
+	bottom: 0;
+	height: 50px;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+}
+
+.footer a, .footer a:visited, .footer a:hover, .footer a:active
+{
+	border-left: solid 1px #EFEEF8;
+	color: #EFEEF8;
+	display: inline-block;
+	height: 100%;
+	line-height: 50px;
+	padding: 0 10px;
+	width: 30%;
+}
+
+.footer a:hover
+{
+	color: #5178A4;
+}
+
+.footer a:first-child
+{
+	border-left-style: none;
+}
