@@ -9,7 +9,7 @@ User.prototype = {
 
 	_createClick: function(e) {
 		$.post('/users',
-			{ "users[username]": $('#username').val(), "users[email]": $('#email').val() },
+			{ username: $('#username').val(), email: $('#email').val() },
 			$.proxy(this._success, this),
 			'application/json'
 		);
